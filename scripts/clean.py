@@ -5,7 +5,6 @@ df = pd.read_csv("results.csv")
 keep = [
     "id",
     "technique",
-    "domaine",
     "quest",
     "[groq:llama-3.3-70b-versatile] {{quest}}",
     "[groq:openai/gpt-oss-120b] {{quest}}",

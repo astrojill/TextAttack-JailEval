@@ -62,7 +62,7 @@ This project evaluates the robustness of Large Language Models (LLMs) against ad
 | Model | ASR (%) | Persona Adoption Rate (%) | Hallucination Rate (%) |
 |---|---|---|---|
 | llama-3.3-70b | **70.0%** | **20.0%** | **3.6%** |
-| qwen3-32b | **58.6%** | **15.7%** | **2.9%**% |
+| qwen3-32b | **58.6%** | **15.7%** | **2.9%** |
 | gpt-oss-120b | **5.0%** | **0.7%** | **0.7%** |
 
 > ASR = Attack Success Rate is the proportion of prompts that successfully bypassed the model's safety guidelines.  
